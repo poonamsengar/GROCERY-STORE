@@ -1,0 +1,84 @@
+.header .login-form {
+    position: absolute;
+    top: 110%;
+    right: 34%;
+    width: 60rem;
+    height: 40rem;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .header #login-btn{
+    display: none;
+  }
+  .header .login-form h3 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+  
+  .header .login-form .box {
+    width: 100%;
+    margin: 0.7rem 0;
+    background: #eee;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+  }
+  
+  .header .login-form p {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    color: var(--light-color);
+  }
+  
+  .header .login-form p a {
+    color: var(--orange);
+    text-decoration: underline;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    #menu-btn {
+      display: inline-block;
+    }
+  
+    .header .search-form {
+      width: 90%;
+    }
+  
+    .header .navbar {
+      position: absolute;
+      top: 110%;
+      right: -110%;
+      width: 30rem;
+      box-shadow: var(--box-shadow);
+      border-radius: 0.5rem;
+      background: #fff;
+    }
+  
+    .header .navbar.active-menu {
+      right: 2rem;
+      transition: 0.4s linear;
+    }
+  
+    .header .navbar a {
+      font-size: 2rem;
+      margin: 2rem 2.5rem;
+      display: block;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
