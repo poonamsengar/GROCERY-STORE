@@ -12,8 +12,6 @@ form.addEventListener('submit', (e)=>{
 
 })
 
-
-
 async function searchImage(){
     const Search = searchbox.value;
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${Search}&client_id=${accessKey}`
@@ -59,5 +57,3 @@ async function searchImage(){
     page++;
     console.log('map funxtion');
 }
-
-// const swiperwrapper 
