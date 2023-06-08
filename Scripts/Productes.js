@@ -63,7 +63,7 @@ async function searchImage(){
 }
 else{
     swiperwrapper.innerHTML = "";
-}
+    }
     page++;
     console.log('map funxtion');
 }
