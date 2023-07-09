@@ -9,7 +9,6 @@ form.addEventListener('submit', (e)=>{
     page=1;
     searchImage();
     console.log("form function");
-
 })
 
 async function searchImage(){
@@ -23,7 +22,7 @@ async function searchImage(){
         boxcontainer.innerHTML = "";
     }
     
-    if(Search == 'free Delivery'){
+    // if(Search == 'free Delivery'){
     results.map((e)=>{
         const box = document.createElement('div')
         box.classList.add('box')
@@ -53,7 +52,7 @@ async function searchImage(){
         box.appendChild(add_to_cart)
         boxcontainer.append(box)
     })
-}
-    page++;
+// }
+    page++;                       
     console.log('map funxtion');
 }

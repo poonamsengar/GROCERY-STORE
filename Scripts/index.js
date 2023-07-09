@@ -41,3 +41,4 @@ window.onscroll = () =>{
     loginform.classList.remove('active-login')
     navbar.classList.remove('active-menu')
 }
+
